@@ -335,7 +335,7 @@ export default function Index({ dataPage }) {
         </main>
       }
 
-      {
+      {/* {
         dataPage && dataPage.slug == 'nextday' &&
         <main className={`${styles.root5} ${bg ? styles.bg : ''}`} >
           <header dangerouslySetInnerHTML={{ __html: `GROUP STAGE - DAY 3 (25<sup>th</sup> NOV)` }} />
@@ -363,7 +363,7 @@ export default function Index({ dataPage }) {
             </div>
           </div>
         </main>
-      }
+      } */}
       {
         dataPage && dataPage.slug == 'test' &&
         <main className={styles.test}>
