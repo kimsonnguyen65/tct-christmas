@@ -13,7 +13,7 @@ export default function Index({ dataPage }) {
   const [day, setDay] = useState({
     number: 0,
     date: [
-      '(17<sup>th</sup> NOV)',
+      '(17<sup>th</sup> NOV) ',
       '(18<sup>th</sup> NOV)',
       '(25<sup>th</sup> NOV)'
     ]
